@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Component With Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="text-section">
+            <h2>Learn to code by watching others</h2>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.</p>
+        </div>
+        <div class="form-section">
+            <p class="white"><span class="white-bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+            <form class="form">
+                <p class="input-one">
+                    <input type="text" id="first-name" name="first_name" placeholder="First Name">
+                    <img class="input-one-img" src="images/icon-error.svg" alt="image">
+                </p>
+                <p class="first-name-msg"></p>
+                <p class="input-two">
+                    <input type="text" id="last-name" name="last_name" placeholder="Last Name">
+                    <img class="input-two-img" src="images/icon-error.svg" alt="image">
+                </p>
+                <p class="last-name-msg"></p>
+                <p class="input-three">
+                    <input type="email" id="email" name="email_address" autocomplete="email"
+                        placeholder="Email Address">
+                    <img class="input-three-img" src="images/icon-error.svg" alt="image">
+                </p>
+                <p class="email-msg"></p>
+                <p class="input-four">
+                    <input type="password" id="password" name="pass_word" autocomplete="current-password"
+                        placeholder="Password">
+                        <span class="toggle-password" id="togglePassword">
+                            <img  id="eye-img" src="images/eyeoff-icon.svg" alt="image"> <!-- Using Font Awesome for the eye icon -->
+                        </span>
+                    <img class="input-four-img" src="images/icon-error.svg" alt="image">
+                </p>
+                <p class="password-msg"></p>
+                <button class="submitButton" type="submit">CLAIM YOUR FREE TRIAL</button>
+                <p class="successMessage"></p>
+                <p class="grey">By clicking the button you are agreeing to our <span class="red">Terms and
+                        Services</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
